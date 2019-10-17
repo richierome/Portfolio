@@ -9608,7 +9608,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .divider-custom .divider-custom-icon {
-  color: black !important;
+  color: blackground-im !important;
   font-size: 2rem;
 }
 
