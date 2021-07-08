@@ -13,6 +13,6 @@ app.get('/', function (req, res){
 });
 
 app.listen(process.env.PORT || 4000, function(){
-    console.log ('your node js server is running');
+    console.log ('your node js server is running on port 4000');
 
 }); 
