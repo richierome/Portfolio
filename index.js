@@ -4,9 +4,9 @@ const path = require ('path');
 
 
 
-// app.use('/static', express.static(path.join(__dirname, "public")))  // original //
+app.use('/static', express.static(path.join(__dirname, "public")))  // original //
 
- app.use("/static", express.static('./public/'));
+//  app.use("/static", express.static('./public/'));
 
 
 app.get('/', function (req, res){
