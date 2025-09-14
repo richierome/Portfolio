@@ -4,10 +4,10 @@ const path = require ('path');
 
 
 
-// app.use('/', express.static(path.join(__dirname, "public")))
+ app.use('/', express.static(path.join(__dirname, "public")))
 // use this app.use when portfolio is updated and ready to push to aws server//
 
-  app.use("/static", express.static('./public/'));
+  // app.use("/static", express.static('./public/'));
   //use this app.use when updating portfolio to view css//
 
 
