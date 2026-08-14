@@ -17,6 +17,22 @@
 
   <!-- Theme CSS -->
   <link href="/public/css/freelancer.min.css" rel="stylesheet">
+  
+  <style>
+
+/* Make AI project thumbnails match original portfolio dimensions */
+.ai-project-grid .portfolio-item {
+  width: 100%;
+}
+
+.ai-project-grid .portfolio-item img {
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
+  display: block;
+}
+  </style>
+
 
 </head>
 
@@ -146,36 +162,82 @@
           </div>
         </div>
      <!-- Portfolio Item 6 -->
-         <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+      <div class="col-md-6 col-lg-4">
+        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+          <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+            <div class="portfolio-item-caption-content text-center text-white">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="/public/img/portfolio/streetfighter.png" alt="Richie's Fighter">
+        </div>
+      </div>
+
+      <!-- End Original Portfolio Grid -->
+      </div>
+
+     
+      <!-- Icon Divider -->
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- AI-Assisted Development Description -->
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-10">
+          <p class="lead text-center">
+           These projects showcase modern prompt development as part of today's software engineering workflow. 
+           I leverage structured prompts to accelerate prototyping, code generation, debugging, and design iteration 
+           while maintaining responsibility for architecture, implementation, testing, and deployment.
+          </p>
+        </div>
+      </div>
+
+      <!-- AI Project Grid -->
+      <div class="row ai-project-grid">
+
+        <!-- Portfolio Item 7 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal7">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="/public/img/portfolio/streetfighter.png" alt="">
+            <img class="img-fluid" src="/public/img/portfolio/moto.png" alt="MotoPsycho">
           </div>
         </div>
-       
-       <!-- Portfolio Item 7 -->
-<div class="col-md-6 col-lg-4 mx-auto">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal7">
-    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
+
+        <!-- Portfolio Item 8 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal8">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="/public/img/portfolio/fab2.png" alt="Papa Rhino Productions">
+          </div>
+        </div>
+
+        <!-- Portfolio Item 9 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal9">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="/public/img/portfolio/vile.png" alt="Vile Diesin">
+          </div>
+        </div>
+
       </div>
     </div>
-    <img class="img-fluid" src="/public/img/portfolio/moto.png" alt="7th project">
-  </div>
-</div>
-
-
-
-      
-
-       
-
-      
   </section>
 
   <!-- About Section -->
@@ -322,16 +384,6 @@
          
         </div>
 
-        <!-- Footer About Text -->
-        <!-- <div class="col-lg-4">
-          <h4 class="text-uppercase mb-4">About Freelancer</h4>
-          <p class="lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by
-            <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-        </div>
-
-      </div>
-    </div> -->
-    
   </footer>
   
 
@@ -680,6 +732,94 @@
   </div>
 </div>
 
+ <!-- Portfolio Modal 8 -->
+<div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-labelledby="portfolioModal8Label" aria-hidden="true">
+  <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">
+          <i class="fas fa-times"></i>
+        </span>
+      </button>
+      <div class="modal-body text-center">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <!-- Portfolio Modal - Title -->
+              <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Papa Rhino Productions</h2>
+              <!-- Icon Divider -->
+              <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon">
+                  <i class="fas fa-star"></i>
+                </div>
+                <div class="divider-custom-line"></div>
+              </div>
+              <!-- Portfolio Modal - Image -->
+              <a href="https://papa-rhino-productions.pages.dev/">
+                <img class="img-fluid rounded mb-5" src="/public/img/portfolio/fab2.png" alt="">
+              </a>
+              <!-- Portfolio Modal - Text -->
+              <p class="mb-5">
+              Papa Rhino Productions is a responsive booking and artist management website built to connect independent artists, touring acts, festivals, and venues.<br>
+              The platform showcases services including live event booking, venue coordination, tour support, promotion, and entertainment consulting, with a focus on the punk, psychobilly, rockabilly, horror punk, and underground music scenes.
+              </p>
+              <button class="btn btn-primary" href="#" data-dismiss="modal">
+                <i class="fas fa-times fa-fw"></i>
+                Close Window
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- Portfolio Modal 9 -->
+<div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-labelledby="portfolioModal9Label" aria-hidden="true">
+  <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">
+          <i class="fas fa-times"></i>
+        </span>
+      </button>
+      <div class="modal-body text-center">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <!-- Portfolio Modal - Title -->
+              <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Vile Diesin</h2>
+              <!-- Icon Divider -->
+              <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon">
+                  <i class="fas fa-star"></i>
+                </div>
+                <div class="divider-custom-line"></div>
+              </div>
+              <!-- Portfolio Modal - Image -->
+              <a href="https://vile-diesin.pages.dev/">
+                <img class="img-fluid rounded mb-5" src="/public/img/portfolio/vile.png" alt="">
+              </a>
+              <!-- Portfolio Modal - Text -->
+              <p class="mb-5">
+               Vile Diesin is an interactive website built around an original synth-driven darkwave music project. 
+               Temporal Transmission invites visitors into a retro-futuristic world through original music, cinematic 
+               visuals, and immersive storytelling inspired by cyberpunk and dystopian science fiction.
+              </p>
+              <button class="btn btn-primary" href="#" data-dismiss="modal">
+                <i class="fas fa-times fa-fw"></i>
+                Close Window
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
  
 
@@ -701,4 +841,3 @@
 </body>
 
 </html>
-
